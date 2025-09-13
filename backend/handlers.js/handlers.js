@@ -13,6 +13,8 @@ const transporter = nodemailer.createTransport({
     }
 })
 
+{/*
+
 // export const signupHandler = async (req, res) => {
 //     const { email, username, password } = req.body;
 //     const otp = Math.floor(1000 + Math.random() * 9000).toString();
@@ -42,6 +44,9 @@ const transporter = nodemailer.createTransport({
 //         res.status(500).json({ message: "Failed to process the request", error });
 //     }
 // };
+
+
+*/}
 
 export const signupHandler = async (req, res) => {
     const { email, username, password } = req.body;

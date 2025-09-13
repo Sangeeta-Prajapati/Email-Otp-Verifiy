@@ -3,6 +3,8 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 
 import { signupHandler, verifyOtpHandler, signinHandler } from './handlers.js/handlers.js';
+// import userProfileRoutes from "./routes/userProfileRoutes.js";
+
 import userProfileRoutes from "./routes/userProfileRoutes.js";
 import connectDb from './db/connectDB.js';
 

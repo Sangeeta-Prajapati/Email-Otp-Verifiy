@@ -1,4 +1,4 @@
-# Logs
+git config --global user.email# Logs
 logs
 *.log
 npm-debug.log*
